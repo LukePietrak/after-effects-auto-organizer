@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.yourname.AutoProjectOrganizer" ExtensionBundleVersion="2.0.0" ExtensionBundleName="Auto Project Organizer">
+ <ExtensionList><Extension Id="com.yourname.AutoProjectOrganizer.panel" Version="2.0.0"/></ExtensionList>
+ <ExecutionEnvironment><HostList><Host Name="AEFT" Version="[18.4,26.99]"/></HostList><LocaleList><Locale Code="All"/></LocaleList><RequiredRuntimeList><RequiredRuntime Name="CSXS" Version="11.0"/></RequiredRuntimeList></ExecutionEnvironment>
+ <DispatchInfoList><Extension Id="com.yourname.AutoProjectOrganizer.panel"><DispatchInfo>
+ <Resources><MainPath>./host/index.html</MainPath><ScriptPath>./jsx/organizer.jsx</ScriptPath></Resources>
+ <Lifecycle><AutoVisible>true</AutoVisible></Lifecycle><UI><Type>Panel</Type><Menu>Auto Project Organizer</Menu><Geometry><Size><Width>320</Width><Height>240</Height></Size><MinSize><Width>240</Width><Height>200</Height></MinSize></Geometry></UI>
+ </DispatchInfo></Extension></DispatchInfoList>
+</ExtensionManifest>
